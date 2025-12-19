@@ -1,15 +1,15 @@
-total_slices = party_pizza_mini + large + medium + people
-print(f'Total number of slices: {total_slices}')
+slices = party_pizza_mini + large + medium + people
+print(f'Total number of slices: {slices}')
 
 people += 1
-share = total_slices // people
-leftover = total_slices % people
+share = slices // people
+leftover = slices % people
 print(f'Each person gets: {share}')
 print(f'Leftover slices: {leftover}')
 
 people += 2
-share = total_slices // people
-leftover = total_slices % people
+share = slices // people
+leftover = slices % people
 print(f'Each person gets: {share}')
 print(f'Leftover slices: {leftover}')
 
